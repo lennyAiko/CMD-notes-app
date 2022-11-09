@@ -1,0 +1,35 @@
+COMMAND LINE NOTES APP
+
+This is a notes app that is only used on the command line, the notes are stores in the memory only for as long as the program is running, i.e once the program stops, all data is lost.
+
+First tip: Commands are chosen with alphabets not symbols, the designated alphabet for each operation is parenthesized in front of it.
+
+Second tip: It is a multiline notes app, so feel free to press enter to go to the next line. Once you are done typing, press 'ctrl + s' to save and then 'ctrl + q' to quit the typing mode.
+
+NB: install the module in the requirements.txt file.
+
+CREATE A NOTE
+
+Upon running the code, type 'c' then press enter to initiate. After that you are given the freedom to type as much as you want. Follow second tip above.
+
+EDIT A NOTE
+
+Type the designated alphabet in front. Then you will be prompted to enter the index of the note you want to edit. Follow second tip above.
+Once done typing, you will be prompted if you agree to make the changes. If 'y' the changes will be made but if 'n' it will remain the same then return you to the dashboard.
+
+READ A NOTE
+
+Type the designated alphabet in front. You will be prompted if you choose to read all the notes at once.
+If 'y' then it shows you all at once but if 'n' then you will be prompted to enter the index of the note you want to read.
+
+DELETE A NOTE
+
+Type the designated alphabet in front. You will prompted to enter the index of the note you want to delete or you can press '0' to delete all available notes. Then you will be prompted to confirm your action.
+
+SEE AVAILABLE NOTES
+
+Type the designated alphabet in front. It shows you a list of the index and notes available in the notes.
+
+QUIT
+
+Type the designated alphabet in front. Then the program stops running and all data is lost.
